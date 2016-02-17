@@ -1,7 +1,12 @@
 # listenercount
 backwards compatible version of builtin events.listenercount
 
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+[![js standard style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)]()
+
+[![build status](https://circleci.com/gh/jden/node-listenercount.svg?&style=shield)][circleci]
+
+[circleci]: https://circleci.com/gh/jden/node-listenercount
+[standard]: http://standardjs.com/
 
 A polyfill of Node.js 0.12+'s events.listenerCount function for Node.js 0.10. Uses the builtin if present, otherwise uses polyfill implementation.
 
