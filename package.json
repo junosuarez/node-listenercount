@@ -1,9 +1,18 @@
 {
   "name": "listenercount",
   "author": "jden <jason@denizac.org>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "backwards compatible version of builtin events.listenercount",
-  "keywords": ["eventemitter", "events", "listener", "count", "listenercount", "polyfill", "native", "builtin"],
+  "keywords": [
+    "eventemitter",
+    "events",
+    "listener",
+    "count",
+    "listenercount",
+    "polyfill",
+    "native",
+    "builtin"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "standard && mochi"
