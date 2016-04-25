@@ -13,4 +13,10 @@ listenerCount = listenerCount || function (ee, event) {
   }
 }
 
-module.exports = listenerCount
+module.exports = function (ee, event) {
+  if (ee.listenerCount) {
+    return ee.listenerCount(event)
+  } else {
+    return listenerCount(ee, event)
+  }
+}
